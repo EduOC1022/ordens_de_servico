@@ -1,0 +1,28 @@
+{
+  "name": "ordens_de_servico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduOC1022/ordens_de_servico.git"
+  },
+  "author": "Eduardo de Oliveira Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduOC1022/ordens_de_servico/issues"
+  },
+  "homepage": "https://github.com/EduOC1022/ordens_de_servico#readme",
+  "devDependencies": {
+    "lerna": "^8.1.8"
+  }
+}

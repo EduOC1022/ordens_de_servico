@@ -1,0 +1,123 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.0",
+  "deps": {
+    "lerna": "^8.1.8"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "package.json",
+        "hash": "5716897450212358043"
+      },
+      {
+        "file": "index.js",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3188020500679845309"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8634117365375618689"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13588695174972777023"
+      },
+      {
+        "file": "README.md",
+        "hash": "1387725033395711916"
+      }
+    ],
+    "projectFileMap": {
+      "@os/backend": [
+        {
+          "file": "packages/backend/.gitignore",
+          "hash": "14836991431865605984"
+        },
+        {
+          "file": "packages/backend/index.js",
+          "hash": "17010826514917432772"
+        },
+        {
+          "file": "packages/backend/package-lock.json",
+          "hash": "9568813191056497358"
+        },
+        {
+          "file": "packages/backend/package.json",
+          "hash": "2497102714293708720",
+          "deps": [
+            "npm:nodemon"
+          ]
+        }
+      ],
+      "@os/frontend": [
+        {
+          "file": "packages/frontend/.gitignore",
+          "hash": "5403484524555424706"
+        },
+        {
+          "file": "packages/frontend/README.md",
+          "hash": "17524295600495787358"
+        },
+        {
+          "file": "packages/frontend/package-lock.json",
+          "hash": "8017341207252893565"
+        },
+        {
+          "file": "packages/frontend/package.json",
+          "hash": "13308352446917581537",
+          "deps": [
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-scripts",
+            "npm:web-vitals"
+          ]
+        },
+        {
+          "file": "packages/frontend/public/favicon.jpg",
+          "hash": "10638843922567768248"
+        },
+        {
+          "file": "packages/frontend/public/index.html",
+          "hash": "7678289994237664486"
+        },
+        {
+          "file": "packages/frontend/public/manifest.json",
+          "hash": "1447645250373428393"
+        },
+        {
+          "file": "packages/frontend/public/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "packages/frontend/src/App.js",
+          "hash": "10598694366699932946"
+        },
+        {
+          "file": "packages/frontend/src/index.js",
+          "hash": "10956356902301170739"
+        },
+        {
+          "file": "packages/frontend/src/reportWebVitals.js",
+          "hash": "8937667725995285050"
+        },
+        {
+          "file": "packages/frontend/.env",
+          "hash": "16861950781788224298"
+        }
+      ]
+    }
+  }
+}
