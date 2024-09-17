@@ -1,3 +1,5 @@
+require('module-alias/register');
+
 // Importa o módulo http do Node.js
 const http = require('http');
 
