@@ -1,4 +1,5 @@
 require('module-alias/register');
+const pgAdmin = require("./infraestrutura/mongoDb")
 
 // Importa o módulo http do Node.js
 const http = require('http');
@@ -12,6 +13,6 @@ const server = http.createServer((req, res) => {
   
   // O servidor escuta na porta 3000
   server.listen(3000, '127.0.0.1', () => {
-    console.log('Servidor rodando em http://127.0.0.1:3000/', server);
+    console.log('Servidor rodando em http://127.0.0.1:3000/');
   });
   
