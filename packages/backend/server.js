@@ -1,18 +1,20 @@
-require('module-alias/register');
-const pgAdmin = require("./infraestrutura/mongoDb")
+const http = require("http")
+const express = require("express")
+const app = express()
 
-// Importa o módulo http do Node.js
-const http = require('http');
+const dados = require("./db/faker")
 
-// Cria um servidor que responde com "Olá Mundo!" a qualquer requisição
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Olá Mundo!\n');
-  });
-  
-  // O servidor escuta na porta 3000
-  server.listen(3000, '127.0.0.1', () => {
-    console.log('Servidor rodando em http://127.0.0.1:3000/');
-  });
+const server = http.createServer(app)
+
+app.use(express.json())
+
+app.get("/", (req, res)=> {
+  console.log(req.body)
+  res.send("Olá mundo!")
+})
+
+server.listen(4000, ()=> { 
+  console.log('Teste: ', dados.users)
+  console.log("Olá mundo!")
+})
   
